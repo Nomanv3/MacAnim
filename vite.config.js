@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// replace 'Nomanv3' with your GitHub username and 'MacAnim' with your repository name
 export default defineConfig({
   plugins: [react()],
-})
+  base: '/MacAnim/',
+});
